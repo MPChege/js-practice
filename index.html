@@ -4,15 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> JS PRACTICE</title>
 </head>
 <body>
+    <!-- Using  document.write() -->
+
     <h1>My First web page</h1>
     <p>My first paragraph</p>
 
     <P id= "marl"></P>
+    <p id="demo"></p>
+
+    <!-- <button type="button" onclick="document.write(5+6)">Try Clicking</button> -->
+
+    <!-- printing a webpage -->
+
+    <button onclick="window.print()">Print this page</button>
     <script>
-        document.getElementById("marl").innerHTML= 5+6;
-    </script>
+        // document.getElementById("marl").innerHTML= 5+6;
+        // alerts the user what is happening on the page
+        // alert(5+6);
+// console.log(5+6);
+// let x, y, z;
+
+// x = 5;
+// y = 6;
+
+// z = x + y;
+// document.getElementById("marl").innerHTML= "The value of z is " + z + ".";
+// let  firstName, lastName;
+// lastName = "Doe";
+// firstName = "Travis"
+// document.getElementById("demo") .innerHTML = lastName + "<br>" + "<br>"+ firstName;
+// document.getElementById("demo") .innerHTML = firstName;
+let carName = "Benzo";
+document.getElementById("demo") .innerHTML=carName;
+</script>
+<script src="index.js"></script>
 </body>
 </html>
